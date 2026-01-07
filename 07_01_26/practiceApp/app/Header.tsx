@@ -15,6 +15,8 @@ export default function Header() {
           alignItems: "center",
           backgroundColor: theme === "dark" ? "black" : "white",
           height: 60,
+          marginTop: 40,
+          marginHorizontal: 10,
           justifyContent: "space-between",
           flexDirection: "row",
           paddingHorizontal: 20,

@@ -1,10 +1,3 @@
-import { ThemeProvider } from "@/context/themeContext";
-import { View } from "react-native";
-import ApiContain from "./ApiContain";
-import Footer from "./Footer";
-import Header from "./Header";
-import MainContain from "./MainContain";
-
 export default function Index() {
   // const pressHandle = () => {
   //   // console.log("btn pressed!!!");
@@ -27,14 +20,5 @@ export default function Index() {
   //   ]);
   // };
 
-  return (
-    <ThemeProvider>
-      <View style={{ flex: 1 }}>
-        <Header />
-        <MainContain />
-        <ApiContain />
-        <Footer />
-      </View>
-    </ThemeProvider>
-  );
+  return <></>;
 }
