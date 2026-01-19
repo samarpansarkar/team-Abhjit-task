@@ -1,5 +1,6 @@
 import ApiCallUsingAxios from "./api/ApiCallUsingAxios";
 import ApiInstance from "./api/ApiInstance";
+import UserPromise from "./promise/userPromise";
 
 const App = () => {
   return (
@@ -33,6 +34,17 @@ const App = () => {
         }}
       >
         <ApiInstance />
+      </div>
+      <div
+        style={{
+          marginLeft: "20px",
+          backgroundColor: "blue",
+          width: "300px",
+          height: "300px",
+          padding: "10px",
+        }}
+      >
+        <UserPromise />
       </div>
     </section>
   );
